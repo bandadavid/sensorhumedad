@@ -4,14 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#114A19"
+    android:background="#FFFFFF"
     tools:context=".RecomendacionesActivity">
 
+
     <RelativeLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="411dp"
+        android:layout_height="727dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:padding="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -24,78 +27,99 @@
             android:layout_alignParentEnd="true"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="21dp"
+            android:fontFamily="sans-serif-smallcaps"
             android:text="Recomendaciones al Suelo"
             android:textAlignment="center"
-            android:textColor="#fff"
+            android:textColor="#d41217"
             android:textSize="30sp"
             android:textStyle="bold|italic" />
 
         <TextView
             android:id="@+id/textView6"
-            android:layout_width="wrap_content"
+            android:layout_width="191dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/textView5"
             android:layout_alignParentStart="true"
-            android:layout_marginStart="115dp"
+            android:layout_marginStart="100dp"
             android:layout_marginTop="64dp"
+            android:fontFamily="sans-serif-smallcaps"
             android:text="Suelo con menor pH"
-            android:textColor="#fff"
+            android:textColor="#3a3e71"
+            android:textSize="18sp"
             android:textStyle="bold|italic" />
 
         <TextView
             android:id="@+id/textView7"
-            android:layout_width="339dp"
-            android:layout_height="134dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_below="@+id/textView6"
             android:layout_alignParentStart="true"
-            android:layout_marginStart="18dp"
+            android:layout_marginStart="5dp"
             android:layout_marginTop="40dp"
-            android:background="#99141414"
+            android:background="#193A3E71"
+            android:fontFamily="sans-serif-smallcaps"
             android:text="@string/recomenor"
             android:textAlignment="center"
-            android:textColor="#FFF" />
+            android:textColor="#3a3e71" />
 
         <TextView
             android:id="@+id/textView8"
-            android:layout_width="wrap_content"
+            android:layout_width="214dp"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginStart="137dp"
+            android:layout_marginStart="100dp"
             android:layout_marginTop="420dp"
-            android:layout_marginEnd="149dp"
+            android:layout_marginEnd="90dp"
+            android:fontFamily="sans-serif-smallcaps"
             android:text="Suelo con mayor pH"
-            android:textColor="#FFF"
+            android:textColor="#3a3e71"
+            android:textSize="18sp"
             android:textStyle="bold|italic" />
 
         <TextView
             android:id="@+id/textView9"
-            android:layout_width="343dp"
-            android:layout_height="98dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="13dp"
+            android:layout_marginStart="5dp"
             android:layout_marginTop="454dp"
-            android:layout_marginBottom="177dp"
-            android:background="#99141414"
+            android:layout_marginBottom="145dp"
+            android:background="#193A3E71"
+            android:fontFamily="sans-serif-smallcaps"
             android:text="@string/recomayor"
             android:textAlignment="center"
-            android:textColor="#FFF" />
+            android:textColor="#3a3e71" />
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="148dp"
-            android:layout_height="96dp"
+            android:layout_width="164dp"
+            android:layout_height="92dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="123dp"
-            android:layout_marginEnd="138dp"
-            android:layout_marginBottom="327dp"
+            android:layout_marginStart="167dp"
+            android:layout_marginEnd="136dp"
+            android:layout_marginBottom="283dp"
             app:srcCompat="@drawable/log" />
 
 
     </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="104dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="640dp"
+        android:layout_marginEnd="278dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666"
+        app:srcCompat="@drawable/logoutc" />
 </androidx.constraintlayout.widget.ConstraintLayout>

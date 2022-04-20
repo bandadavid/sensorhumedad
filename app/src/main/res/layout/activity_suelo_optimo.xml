@@ -42,7 +42,7 @@
         android:fontFamily="sans-serif-smallcaps"
         android:text=" RANGOS DEFINIDOS"
         android:textAlignment="center"
-        android:textColor="#3a3e71"
+        android:textColor="#d41217"
         android:textSize="30sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
