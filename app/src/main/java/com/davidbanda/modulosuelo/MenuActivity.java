@@ -14,48 +14,39 @@ public class MenuActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
-        //////////boton para ingresar a optimo
-        optimo= (Button)findViewById(R.id.optimo1);
-        optimo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent optimo = new Intent(MenuActivity.this,SueloOptimoActivity.class);
-                startActivity(optimo);
-            }
-        });
+    }
 
-        //////////boton para ingresar a medidas
-        medidas= (Button)findViewById(R.id.medidas1);
-        medidas.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent medidas = new Intent(MenuActivity.this,DispositivosBT.class);
-                startActivity(medidas);
-            }
-        });
+    public void abrirOptimo(View view){
 
-        //////////boton para ingresar a general
+        //Objeto para manipular la actividad Menu
+        Intent ventanLista= new Intent(getApplicationContext(), SueloOptimoActivity.class);
+        startActivity(ventanLista); //Solicitando que se abra el Menu
+    }
 
-        general= (Button)findViewById(R.id.general1);
-        general.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent general = new Intent(MenuActivity.this,EstadoGeneralActivity.class);
-                startActivity(general);
-            }
-        });
+    public void abrorMedidas(View view){
 
-        //////////boton para ingresar a recomendaciones
-        recomenda= (Button)findViewById(R.id.recomenda1);
-        recomenda.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent recomenda = new Intent(MenuActivity.this,RecomendacionesActivity.class);
-                startActivity(recomenda);
-            }
-        });
+        //Objeto para manipular la actividad Menu
+        Intent ventanLista= new Intent(getApplicationContext(), DispositivosBT.class);
+        startActivity(ventanLista); //Solicitando que se abra el Menu
+    }
+
+    public void abrirEstadoGeneral(View view){
+
+        //Objeto para manipular la actividad Menu
+        Intent ventanLista= new Intent(getApplicationContext(), EstadoGeneralActivity.class);
+        startActivity(ventanLista); //Solicitando que se abra el Menu
+    }
+
+    public void abrirRecomendaciones(View view){
+        //Objeto para manipular la actividad Menu
+        Intent ventanLista= new Intent(getApplicationContext(), RecomendacionesActivity.class);
+        startActivity(ventanLista); //Solicitando que se abra el Menu
+    }
 
 
-
+    public void abrirListaTerrenos(View view){
+        //Objeto para manipular la actividad Menu
+        Intent ventanLista= new Intent(getApplicationContext(), Terrenos.class);
+        startActivity(ventanLista); //Solicitando que se abra el Menu
     }
 }
