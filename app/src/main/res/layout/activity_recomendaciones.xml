@@ -7,9 +7,10 @@
     android:background="#FFFFFF"
     tools:context=".RecomendacionesActivity">
 
+
     <RelativeLayout
-        android:layout_width="403dp"
-        android:layout_height="709dp"
+        android:layout_width="411dp"
+        android:layout_height="727dp"
         android:background="#FFFFFF"
         android:backgroundTint="#FFFFFF"
         android:padding="18sp"
@@ -95,8 +96,8 @@
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="124dp"
-            android:layout_height="132dp"
+            android:layout_width="164dp"
+            android:layout_height="92dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
@@ -107,4 +108,18 @@
 
 
     </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="104dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="640dp"
+        android:layout_marginEnd="278dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666"
+        app:srcCompat="@drawable/logoutc" />
 </androidx.constraintlayout.widget.ConstraintLayout>

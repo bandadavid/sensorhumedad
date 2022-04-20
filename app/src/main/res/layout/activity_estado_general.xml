@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
     tools:context=".EstadoGeneralActivity">
 
     <RelativeLayout
         android:id="@+id/id_gen"
-        android:layout_width="420dp"
-        android:layout_height="775dp"
+        android:layout_width="451dp"
+        android:layout_height="817dp"
         android:background="@drawable/siete"
         android:backgroundTint="#FFFFFF"
         android:padding="18sp"
@@ -131,16 +133,16 @@
 
         <Button
             android:id="@+id/estadogen1"
-            android:layout_width="199dp"
-            android:layout_height="63dp"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="100dp"
-            android:layout_marginTop="618dp"
-            android:layout_marginEnd="104dp"
-            android:layout_marginBottom="76dp"
+            android:layout_marginTop="638dp"
+            android:layout_marginEnd="98dp"
+            android:layout_marginBottom="96dp"
             android:background="@drawable/botton_borde"
             android:fontFamily="sans-serif-smallcaps"
             android:text="Recomendaciones"
@@ -474,5 +476,16 @@
             android:textColor="#3a3e71"
             android:textStyle="bold" />
 
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="103dp"
+            android:layout_height="205dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="695dp"
+            android:layout_marginEnd="310dp"
+            app:srcCompat="@drawable/logoutc" />
+
     </RelativeLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
