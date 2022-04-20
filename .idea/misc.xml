@@ -7,9 +7,14 @@
         <entry key="..\:/Users/david/AndroidStudioProjects/Proyect_android/app/src/main/res/layout/activity_main.xml" value="0.37083333333333335" />
         <entry key="..\:/Users/david/AndroidStudioProjects/Proyect_android/app/src/main/res/layout/activity_menu.xml" value="0.33" />
         <entry key="..\:/Users/david/AndroidStudioProjects/Proyect_android/app/src/main/res/layout/activity_splash_screen.xml" value="0.37083333333333335" />
-        <entry key="..\:/Users/david/AndroidStudioProjects/Proyect_android/app/src/main/res/layout/activity_suelo_optimo.xml" value="0.3625" />
         <entry key="..\:/Users/david/AndroidStudioProjects/Proyect_android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/diego/OneDrive/Escritorio/1-PH-SUELO/sensorhumedad/app/src/main/res/layout/activity_dispositivos_bt.xml" value="0.23097826086956522" />
         <entry key="..\:/Users/diego/OneDrive/Escritorio/1-PH-SUELO/sensorhumedad/app/src/main/res/layout/activity_estado_general.xml" value="0.44036697247706424" />
+        <entry key="..\:/Users/diego/OneDrive/Escritorio/1-PH-SUELO/sensorhumedad/app/src/main/res/layout/activity_recomendaciones.xml" value="0.23097826086956522" />
+        <entry key="..\:/Users/diego/OneDrive/Escritorio/1-PH-SUELO/sensorhumedad/app/src/main/res/layout/activity_splash_screen.xml" value="0.23097826086956522" />
+        <entry key="..\:/Users/diego/OneDrive/Escritorio/1-PH-SUELO/sensorhumedad/app/src/main/res/layout/activity_suelo_optimo.xml" value="0.23097826086956522" />
+        <entry key="..\:/Users/diego/OneDrive/Escritorio/1-PH-SUELO/sensorhumedad/app/src/main/res/layout/activity_toma_mediciones.xml" value="0.23097826086956522" />
+        <entry key="..\:/Users/diego/OneDrive/Escritorio/1-PH-SUELO/sensorhumedad/app/src/main/res/layout/nombre_dispositivos.xml" value="0.23097826086956522" />
       </map>
     </option>
   </component>

@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Verificador de PH</string>
-    <string name="recomenor">Has descubierto que el suelo es demasiado ácido, podrás aumentarlo al agregar una base de Cal, usa materiales organicos, o fertilizantes  NPK = dependiendo  el resultado del diagnostico predio </string>
-    <string name="recomayor">Para comenzar a tratar  en suelo  que tiene el  pH SUPERIOR de 8 necesitamos colocarle materia orgánica, como el compost, el estiércol maduro y las coberturas ácidas (como las agujas de pino), pueden reducir gradualmente el pH del suelo</string>
+    <string name="recomenor">Has descubierto que el suelo es demasiado ácido, podrás aumentarlo al agregar una base de Cal, usa materiales orgánicos, o fertilizantes  NPK = dependiendo  el resultado del diagnóstico previo </string>
+    <string name="recomayor">Para comenzar a tratar  en suelo  que tiene el  pH SUPERIOR de 8, necesitamos colocar materia orgánica, como el compost, el estiércol maduro y las coberturas ácidas (como las agujas de pino), pueden reducir gradualmente el pH del suelo</string>
 
 
 </resources>

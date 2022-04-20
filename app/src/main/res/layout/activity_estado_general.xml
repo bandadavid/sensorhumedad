@@ -35,7 +35,7 @@
             android:textAlignment="center"
             android:textColor="#d41217"
             android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textStyle="bold|italic" />
 
         <TextView
             android:id="@+id/textView4"
@@ -156,7 +156,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/textView2"
             android:layout_alignParentStart="true"
-            android:layout_marginStart="17dp"
+            android:layout_marginStart="19dp"
             android:layout_marginTop="84dp"
             android:fontFamily="sans-serif-smallcaps"
             android:text="Tipo de Suelo:"
@@ -222,12 +222,12 @@
 
         <TextView
             android:id="@+id/textView47"
-            android:layout_width="106dp"
-            android:layout_height="24dp"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
             android:layout_below="@+id/textView2"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="51dp"
-            android:layout_marginEnd="240dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginEnd="255dp"
             android:fontFamily="sans-serif-smallcaps"
             android:text="Lugar: "
             android:textAlignment="center"
@@ -301,11 +301,11 @@
 
         <Button
             android:id="@+id/calcular"
-            android:layout_width="124dp"
+            android:layout_width="118dp"
             android:layout_height="wrap_content"
             android:layout_alignBottom="@+id/textView12"
             android:layout_alignParentStart="true"
-            android:layout_marginStart="39dp"
+            android:layout_marginStart="20dp"
             android:layout_marginBottom="60dp"
             android:background="@drawable/botton_borde"
             android:fontFamily="sans-serif-smallcaps"
