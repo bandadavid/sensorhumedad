@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#114A19"
+    tools:context=".RecomendacionesActivity">
+
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="372dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="21dp"
+            android:text="Recomendaciones al Suelo"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView5"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="64dp"
+            android:text="Suelo con menor pH"
+            android:textColor="#fff"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="339dp"
+            android:layout_height="134dp"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="40dp"
+            android:background="#99141414"
+            android:text="@string/recomenor"
+            android:textAlignment="center"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="137dp"
+            android:layout_marginTop="420dp"
+            android:layout_marginEnd="149dp"
+            android:text="Suelo con mayor pH"
+            android:textColor="#FFF"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="343dp"
+            android:layout_height="98dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="454dp"
+            android:layout_marginBottom="177dp"
+            android:background="#99141414"
+            android:text="@string/recomayor"
+            android:textAlignment="center"
+            android:textColor="#FFF" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="148dp"
+            android:layout_height="96dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="123dp"
+            android:layout_marginEnd="138dp"
+            android:layout_marginBottom="327dp"
+            app:srcCompat="@drawable/log" />
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

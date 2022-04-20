@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EstadoGeneralActivity">
+
+    <RelativeLayout
+        android:id="@+id/id_gen"
+        android:layout_width="420dp"
+        android:layout_height="775dp"
+        android:background="@drawable/siete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="263dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="155dp"
+            android:text="Fertidad del Suelo Medido"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="83dp"
+            android:layout_marginTop="112dp"
+            android:layout_marginEnd="77dp"
+            android:text="Comparación de Estados"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="98dp"
+            android:layout_height="43dp"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="94dp"
+            android:text="Promedio de medidas"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="67dp"
+            android:layout_height="37dp"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="15dp"
+            android:layout_toStartOf="@+id/textView10"
+            android:text="Estado Optimo"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView11"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="40dp"
+            android:text="Temperatura:"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView12"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="30dp"
+            android:text="Humedad:"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView13"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="17dp"
+            android:text="pH:"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/estadogen1"
+            android:layout_width="187dp"
+            android:layout_height="46dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="114dp"
+            android:layout_marginTop="532dp"
+            android:layout_marginEnd="119dp"
+            android:layout_marginBottom="198dp"
+            android:background="@drawable/botton_borde"
+            android:text="Recomendaciones"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            tools:text="Recomendaciones" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="84dp"
+            android:text="Tipo de Suelo:"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="-79dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="0dp"
+            android:layout_toEndOf="@+id/textView10"
+            android:text="Resultado "
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tiposuelo1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="84dp"
+            android:layout_marginEnd="213dp"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="102dp"
+            android:text="Fecha:"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fecha"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="12dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="358dp"
+            android:text="Lugar: "
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="329dp"
+            android:text="ID Medicion:"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rese1"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView41"
+            android:layout_marginStart="152dp"
+            android:layout_marginTop="64dp"
+            android:layout_toEndOf="@+id/temp1"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rese2"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView41"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="117dp"
+            android:layout_toEndOf="@+id/hum2"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/ph2"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_marginStart="156dp"
+            android:layout_marginTop="197dp"
+            android:layout_toEndOf="@+id/textView13"
+            android:background="?attr/actionModeBackground"
+            android:ems="10"
+            android:hint="........."
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rese3"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView41"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="167dp"
+            android:layout_toEndOf="@+id/ph2"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/calcular"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView12"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginBottom="65dp"
+            android:background="@drawable/botton_borde"
+            android:text="Diagnosticar"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/hum2"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_marginStart="156dp"
+            android:layout_marginTop="148dp"
+            android:layout_toEndOf="@+id/textView13"
+            android:background="?attr/actionModeBackground"
+            android:ems="10"
+            android:hint="........."
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buscar"
+            android:layout_width="61dp"
+            android:layout_height="28dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="61dp"
+            android:background="@drawable/botton_borde"
+            android:text="Buscar"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="8sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/lugar_medicion"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="49dp"
+            android:layout_marginEnd="227dp"
+            android:background="?attr/actionModeBackground"
+            android:ems="10"
+            android:hint="Ingrese lugar..."
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/id_med1"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="226dp"
+            android:background="?attr/actionModeBackground"
+            android:ems="10"
+            android:hint="ID medicion..."
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/hum1"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="149dp"
+            android:layout_toEndOf="@+id/textView13"
+            android:background="?attr/actionModeBackground"
+            android:ems="10"
+            android:inputType="number"
+            android:text="50"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/temp1"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="95dp"
+            android:layout_toEndOf="@+id/textView13"
+            android:background="?attr/actionModeBackground"
+            android:ems="10"
+            android:inputType="number"
+            android:text="23"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/temp2"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_marginStart="156dp"
+            android:layout_marginTop="95dp"
+            android:layout_toEndOf="@+id/textView13"
+            android:background="?attr/actionModeBackground"
+            android:ems="10"
+            android:hint="........."
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/ph1"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="197dp"
+            android:layout_toEndOf="@+id/textView13"
+            android:background="?attr/actionModeBackground"
+            android:ems="10"
+            android:inputType="number"
+            android:text="7"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="191dp"
+            android:layout_height="69dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="241dp"
+            android:text="Si su diagnostico tiene resultados positivos carese de  nutrientes  el suelo"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="215dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="202dp"
+            android:layout_marginBottom="239dp"
+            android:text="Si su diagnostico tiene resultados negativos tiene sufientes nutrientes  el suelo"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
