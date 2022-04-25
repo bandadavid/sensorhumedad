@@ -10,7 +10,7 @@
 
         <RelativeLayout
             android:id="@+id/id_gen"
-            android:layout_width="451dp"
+            android:layout_width="400dp"
             android:layout_height="820dp"
             android:background="@drawable/siete"
             android:backgroundTint="#FFFFFF"
