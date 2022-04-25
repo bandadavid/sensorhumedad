@@ -12,7 +12,7 @@
         <TextView
             android:id="@+id/textView17"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="7dp" />
 
         <ImageView
             android:id="@+id/imageView5"
@@ -27,15 +27,10 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-smallcaps"
             android:gravity="center"
-            android:text="Verificador de PH"
+            android:text="¿Qué puedes cultivar en tu terreno?"
             android:textColor="#3A3E71"
             android:textSize="30sp"
             android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView22"
-            android:layout_width="match_parent"
-            android:layout_height="14dp" />
 
         <TextView
             android:id="@+id/textView23"

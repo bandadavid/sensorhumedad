@@ -10,7 +10,7 @@
 
     <RelativeLayout
         android:id="@+id/id_gen"
-        android:layout_width="451dp"
+        android:layout_width="400dp"
         android:layout_height="817dp"
         android:background="@drawable/siete"
         android:backgroundTint="#FFFFFF"
@@ -140,9 +140,9 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="100dp"
-            android:layout_marginTop="638dp"
+            android:layout_marginTop="500dp"
             android:layout_marginEnd="98dp"
-            android:layout_marginBottom="96dp"
+            android:layout_marginBottom="220dp"
             android:background="@drawable/botton_borde"
             android:fontFamily="sans-serif-smallcaps"
             android:text="Recomendaciones"
@@ -446,44 +446,18 @@
             android:textColor="#3a3e71"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/textView19"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="30dp"
-            android:layout_marginBottom="180dp"
-            android:fontFamily="sans-serif-smallcaps"
-            android:text="Si su diagnóstico tiene resultados positivos carece de  nutrientes  el suelo"
-            android:textAlignment="center"
-            android:textAllCaps="false"
-            android:textColor="#3a3e71"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="230dp"
-            android:layout_marginBottom="170dp"
-            android:fontFamily="sans-serif-smallcaps"
-            android:text="Si su diagnóstico tiene resultados negativos tiene sufientes nutrientes  el suelo"
-            android:textAlignment="center"
-            android:textAllCaps="false"
-            android:textColor="#3a3e71"
-            android:textStyle="bold" />
-
         <ImageView
-            android:id="@+id/imageView7"
-            android:layout_width="103dp"
-            android:layout_height="205dp"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="695dp"
-            android:layout_marginEnd="310dp"
+            android:id="@+id/imageView2"
+            android:layout_width="104dp"
+            android:layout_height="92dp"
+            android:layout_marginTop="640dp"
+            android:layout_marginEnd="276dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.013"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.993"
             app:srcCompat="@drawable/logoutc" />
 
     </RelativeLayout>

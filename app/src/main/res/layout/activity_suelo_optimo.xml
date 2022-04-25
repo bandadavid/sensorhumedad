@@ -38,9 +38,9 @@
     <TextView
         android:id="@+id/textView32"
         android:layout_width="291dp"
-        android:layout_height="56dp"
+        android:layout_height="79dp"
         android:fontFamily="sans-serif-smallcaps"
-        android:text=" RANGOS DEFINIDOS"
+        android:text="REQUISITOS MÍNIMOS DEL SUELO"
         android:textAlignment="center"
         android:textColor="#d41217"
         android:textSize="30sp"

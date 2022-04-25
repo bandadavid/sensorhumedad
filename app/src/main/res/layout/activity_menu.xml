@@ -25,12 +25,12 @@
 
     <Button
         android:id="@+id/medidas1"
-        android:layout_width="146dp"
-        android:layout_height="66dp"
+        android:layout_width="197dp"
+        android:layout_height="55dp"
         android:background="@drawable/botton_borde"
         android:onClick="abrorMedidas"
         android:padding="4dp"
-        android:text="toma de mediciones"
+        android:text="ANALIZA TU TERRENO"
         android:textColor="#3A3E71"
         android:textSize="16sp"
         android:textStyle="bold|italic"
@@ -43,12 +43,12 @@
 
     <Button
         android:id="@+id/optimo1"
-        android:layout_width="149dp"
-        android:layout_height="61dp"
+        android:layout_width="193dp"
+        android:layout_height="53dp"
         android:background="@drawable/botton_borde"
         android:onClick="abrirOptimo"
         android:padding="4dp"
-        android:text=" RANGO DEFINIDO"
+        android:text="REQUISITOS MÍNIMOS DEL SUELO"
         android:textAlignment="center"
         android:textColor="#3A3E71"
 
