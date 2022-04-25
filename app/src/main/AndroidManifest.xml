@@ -15,16 +15,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
-        <activity android:name="com.davidbanda.modulosuelo.MainActivity" />
-        <activity android:name="com.davidbanda.modulosuelo.DispositivosBT" />
-        <activity android:name="com.davidbanda.modulosuelo.RecomendacionesActivity" />
-        <activity android:name="com.davidbanda.modulosuelo.EstadoGeneralActivity" />
-        <activity android:name="com.davidbanda.modulosuelo.TomaMedicionesActivity" />
-        <activity android:name="com.davidbanda.modulosuelo.SueloOptimoActivity" />
-        <activity android:name="com.davidbanda.modulosuelo.MenuActivity" />
-        <activity android:name="com.davidbanda.modulosuelo.SplashScreen">
+        <activity
+            android:name=".FormularioTerrenosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FormularioEditarTerrenosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Terrenos"
+            android:exported="false" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".DispositivosBT" />
+        <activity android:name=".RecomendacionesActivity" />
+        <activity android:name=".EstadoGeneralActivity" />
+        <activity android:name=".TomaMedicionesActivity" />
+        <activity android:name=".SueloOptimoActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
