@@ -10,33 +10,41 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:padding="15sp">
+
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
             <TextView
                 android:id="@+id/textView1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center_horizontal"
                 android:text="Toma de Mediciones"
+                android:textColor="#b41217"
                 android:textSize="30sp"
-                android:textStyle="bold"
-                android:textColor="#FFFFFF"
-                android:gravity="center_horizontal"/>
+                android:textStyle="bold|italic" />
 
             <LinearLayout
-                android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
+                android:background="#EDF3F3"
                 android:gravity="center_horizontal"
-                android:background="#EDF3F3">
+                android:orientation="horizontal"
+                android:paddingLeft="10dp">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="REGISTRO"
-                    android:textColor="#000000"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="Registro"
+                    android:textColor="#3a3e71"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
@@ -44,16 +52,17 @@
                     android:id="@+id/id"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:hint="Id"
                     android:gravity="center_horizontal"
+                    android:hint="Id"
                     android:inputType="number"
                     android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-smallcaps"
                     android:text="Ubicación:"
-                    android:textColor="#000000"
+                    android:textColor="#3a3e71"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
@@ -65,75 +74,85 @@
                     android:textAlignment="center" />
 
             </LinearLayout>
+
             <TextView
                 android:id="@+id/textView2"
-                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFF"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center_horizontal"
                 android:text="Tempertura °C"
-                android:textColor="#FFFFFF"
+                android:textColor="#3a3e71"
                 android:textSize="20sp"
-                android:textStyle="bold"
-                android:gravity="center_horizontal"/>
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:id="@+id/container1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
+
                 <LinearLayout
                     android:id="@+id/header1"
-                    android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
                     android:gravity="center_vertical"
-                    android:padding="10dp"
-                    android:background="#000000">
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="center_horizontal"
-                        android:textColor="#ffffff"
-                        android:textSize="16sp"
-                        android:text="Medicion 1"/>
+                    android:orientation="horizontal"
+                    android:padding="10dp">
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:fontFamily="sans-serif-smallcaps"
                         android:gravity="center_horizontal"
-                        android:textColor="#ffffff"
-                        android:textSize="16sp"
-                        android:text="Medicion 2" />
+                        android:text="Medición 1"
+                        android:textColor="#3a3e71"
+                        android:textSize="16sp" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:fontFamily="sans-serif-smallcaps"
                         android:gravity="center_horizontal"
-                        android:textColor="#ffffff"
-                        android:textSize="16sp"
-                        android:text="Medicion 3" />
+                        android:text="Medición 2"
+                        android:textColor="#3a3e71"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:gravity="center_horizontal"
+                        android:text="Medición 3"
+                        android:textColor="#3a3e71"
+                        android:textSize="16sp" />
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:id="@+id/body1"
-                    android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
                     android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
                     android:padding="10dp">
+
                     <TextView
                         android:id="@+id/tem1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center_horizontal"
+                        android:text="0"
                         android:textColor="#000000"
-                        android:textSize="16sp"
-                        android:text="0"/>
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/tem2"
@@ -141,9 +160,9 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center_horizontal"
+                        android:text="0"
                         android:textColor="#000000"
-                        android:textSize="16sp"
-                        android:text="0" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/tem3"
@@ -151,113 +170,127 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center_horizontal"
+                        android:text="0"
                         android:textColor="#000000"
-                        android:textSize="16sp"
-                        android:text="0" />
+                        android:textSize="16sp" />
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:id="@+id/action1"
-                    android:orientation="horizontal"
                     android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
-                    android:layout_height="wrap_content">
+                    android:orientation="horizontal">
 
                     <Button
                         android:id="@+id/obtener1"
                         android:layout_width="wrap_content"
+
                         android:layout_height="wrap_content"
-                        android:background="#000000"
-                        android:text="Obtener"
-                        android:textColor="#fff"
-                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal"
                         android:layout_marginTop="20dp"
-                        android:layout_gravity="center_horizontal"/>
+                        android:background="@drawable/botton_borde"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Obtener"
+                        android:textColor="#3a3e71"
+                        android:textStyle="bold" />
 
                     <Button
                         android:id="@+id/calcular1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="#000000"
-                        android:text="Calcular"
+                        android:layout_gravity="center_horizontal"
+
                         android:layout_marginLeft="10dp"
-                        android:textColor="#fff"
-                        android:textStyle="bold"
                         android:layout_marginTop="20dp"
-                        android:layout_gravity="center_horizontal"/>
+                        android:background="@drawable/botton_borde"
+
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Calcular"
+                        android:textColor="#3a3e71"
+                        android:textStyle="bold" />
 
                 </LinearLayout>
             </LinearLayout>
 
             <TextView
                 android:id="@+id/textView3"
-                android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center_horizontal"
                 android:text="Humedad %"
-                android:textColor="#FFFFFF"
+                android:textColor="#3a3e71"
                 android:textSize="20sp"
-                android:textStyle="bold"
-                android:gravity="center_horizontal"/>
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:id="@+id/container2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
+
                 <LinearLayout
                     android:id="@+id/header2"
-                    android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
                     android:gravity="center_vertical"
-                    android:padding="10dp"
-                    android:background="#000000">
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="center_horizontal"
-                        android:textColor="#ffffff"
-                        android:textSize="16sp"
-                        android:text="Medicion 1"/>
+                    android:orientation="horizontal"
+                    android:padding="10dp">
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:fontFamily="sans-serif-smallcaps"
                         android:gravity="center_horizontal"
-                        android:textColor="#ffffff"
-                        android:textSize="16sp"
-                        android:text="Medicion 2" />
+                        android:text="Medición 1"
+                        android:textColor="#3a3e71"
+                        android:textSize="16sp" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:fontFamily="sans-serif-smallcaps"
                         android:gravity="center_horizontal"
-                        android:textColor="#ffffff"
-                        android:textSize="16sp"
-                        android:text="Medicion 3" />
+                        android:text="Medición 2"
+                        android:textColor="#3a3e71"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:gravity="center_horizontal"
+                        android:text="Medición 3"
+                        android:textColor="#3a3e71"
+                        android:textSize="16sp" />
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:id="@+id/body2"
-                    android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
                     android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
                     android:padding="10dp">
+
                     <TextView
                         android:id="@+id/hu1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center_horizontal"
+                        android:text="0"
                         android:textColor="#000000"
-                        android:textSize="16sp"
-                        android:text="0"/>
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/hu2"
@@ -265,9 +298,9 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center_horizontal"
+                        android:text="0"
                         android:textColor="#000000"
-                        android:textSize="16sp"
-                        android:text="0" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/hu3"
@@ -275,110 +308,124 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center_horizontal"
+                        android:text="0"
                         android:textColor="#000000"
-                        android:textSize="16sp"
-                        android:text="0" />
+                        android:textSize="16sp" />
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:id="@+id/action2"
-                    android:orientation="horizontal"
-                    android:gravity="center_horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
                     <Button
                         android:id="@+id/obtener2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="#000000"
-                        android:text="Obtener"
-                        android:textColor="#fff"
-                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal"
+
                         android:layout_marginTop="20dp"
-                        android:layout_gravity="center_horizontal"/>
+                        android:background="@drawable/botton_borde"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Obtener"
+                        android:textColor="#3a3e71"
+                        android:textStyle="bold" />
+
                     <Button
                         android:id="@+id/calcular2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="#000000"
-                        android:text="Calcular"
+                        android:layout_gravity="center_horizontal"
+
                         android:layout_marginLeft="10dp"
-                        android:textColor="#fff"
-                        android:textStyle="bold"
                         android:layout_marginTop="20dp"
-                        android:layout_gravity="center_horizontal"/>
+                        android:background="@drawable/botton_borde"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Calcular"
+                        android:textColor="#3a3e71"
+                        android:textStyle="bold" />
                 </LinearLayout>
             </LinearLayout>
 
             <TextView
                 android:id="@+id/textView4"
-                android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
                 android:text="Ph"
-                android:textColor="#F4F4F4"
+                android:textColor="#3a3e71"
                 android:textSize="20sp"
-                android:textStyle="bold"
-                android:gravity="center_horizontal"/>
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:id="@+id/container3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
+
                 <LinearLayout
                     android:id="@+id/header3"
-                    android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
                     android:gravity="center_vertical"
-                    android:padding="10dp"
-                    android:background="#000000">
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="center_horizontal"
-                        android:textColor="#ffffff"
-                        android:textSize="16sp"
-                        android:text="Medicion 1"/>
+                    android:orientation="horizontal"
+                    android:padding="10dp">
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:fontFamily="sans-serif-smallcaps"
                         android:gravity="center_horizontal"
-                        android:textColor="#ffffff"
-                        android:textSize="16sp"
-                        android:text="Medicion 2" />
+                        android:text="Medición 1"
+                        android:textColor="#3a3e71"
+                        android:textSize="16sp" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:fontFamily="sans-serif-smallcaps"
                         android:gravity="center_horizontal"
-                        android:textColor="#ffffff"
-                        android:textSize="16sp"
-                        android:text="Medicion 3" />
+                        android:text="Medición 2"
+                        android:textColor="#3a3e71"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:gravity="center_horizontal"
+                        android:text="Medición 3"
+                        android:textColor="#3a3e71"
+                        android:textSize="16sp" />
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:id="@+id/body3"
-                    android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
                     android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
                     android:padding="10dp">
+
                     <TextView
                         android:id="@+id/ph1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center_horizontal"
+                        android:text="0"
                         android:textColor="#000000"
-                        android:textSize="16sp"
-                        android:text="0"/>
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/ph2"
@@ -386,9 +433,9 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center_horizontal"
+                        android:text="0"
                         android:textColor="#000000"
-                        android:textSize="16sp"
-                        android:text="0" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/ph3"
@@ -396,111 +443,125 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center_horizontal"
+                        android:text="0"
                         android:textColor="#000000"
-                        android:textSize="16sp"
-                        android:text="0" />
+                        android:textSize="16sp" />
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:id="@+id/action3"
-                    android:orientation="horizontal"
-                    android:gravity="center_horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
                     <Button
                         android:id="@+id/obtener3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="#000000"
-                        android:text="Obtener"
-                        android:textColor="#fff"
-                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal"
+
                         android:layout_marginTop="20dp"
-                        android:layout_gravity="center_horizontal"/>
+                        android:background="@drawable/botton_borde"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Obtener"
+                        android:textColor="#3a3e71"
+                        android:textStyle="bold" />
+
                     <Button
                         android:id="@+id/calcular3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="#000000"
-                        android:text="Calcular"
+                        android:layout_gravity="center_horizontal"
+
                         android:layout_marginLeft="10dp"
-                        android:textColor="#fff"
-                        android:textStyle="bold"
                         android:layout_marginTop="20dp"
-                        android:layout_gravity="center_horizontal"/>
+                        android:background="@drawable/botton_borde"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Calcular"
+                        android:textColor="#3a3e71"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
             </LinearLayout>
 
             <TextView
                 android:id="@+id/textView5"
-                android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center_horizontal"
                 android:text="Resultados"
-                android:textColor="#ffffff"
+                android:textColor="#3a3e71"
                 android:textSize="20sp"
-                android:textStyle="bold"
-                android:gravity="center_horizontal"/>
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:id="@+id/container4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
+
                 <LinearLayout
                     android:id="@+id/header4"
-                    android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
                     android:gravity="center_vertical"
-                    android:padding="10dp"
-                    android:background="#000000">
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:fontFamily="sans-serif-smallcaps"
                         android:gravity="center_horizontal"
-                        android:textColor="#ffffff"
-                        android:textSize="16sp"
-                        android:text="Temperatura"/>
+                        android:text="Temperatura"
+                        android:textColor="#3a3e71"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:gravity="center_horizontal"
+                        android:text="Humedad"
+                        android:textColor="#3a3e71"
+                        android:textSize="16sp" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center_horizontal"
-                        android:textColor="#ffffff"
-                        android:textSize="16sp"
-                        android:text="Humedad" />
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="center_horizontal"
-                        android:textColor="#ffffff"
-                        android:textSize="16sp"
-                        android:text="Ph" />
+                        android:text="Ph"
+                        android:textColor="#3a3e71"
+                        android:textSize="16sp" />
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:id="@+id/body4"
-                    android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
                     android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
                     android:padding="10dp">
+
                     <TextView
                         android:id="@+id/re1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center_horizontal"
+                        android:text="0"
                         android:textColor="#000000"
-                        android:textSize="16sp"
-                        android:text="0"/>
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/re2"
@@ -508,9 +569,9 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center_horizontal"
+                        android:text="0"
                         android:textColor="#000000"
-                        android:textSize="16sp"
-                        android:text="0" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/re3"
@@ -518,9 +579,9 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center_horizontal"
+                        android:text="0"
                         android:textColor="#000000"
-                        android:textSize="16sp"
-                        android:text="0" />
+                        android:textSize="16sp" />
 
                 </LinearLayout>
 
@@ -529,30 +590,36 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
+
                     <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:orientation="vertical"
                         android:background="#ffffff"
                         android:gravity="center_horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:orientation="vertical">
+
                         <TextView
                             android:id="@+id/tipo"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-smallcaps"
                             android:text="Tipo de Suelo"
-                            android:textColor="#000000"
+                            android:textColor="#3a3e71"
                             android:textStyle="bold" />
                     </LinearLayout>
+
                     <Button
                         android:id="@+id/guardar"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
+
                         android:layout_marginTop="10dp"
-                        android:background="#000000"
+                        android:background="@drawable/botton_borde"
+                        android:fontFamily="sans-serif-smallcaps"
                         android:text="Guardar"
-                        android:textColor="#fff"
+                        android:textColor="#3a3e71"
                         android:textStyle="bold" />
                 </LinearLayout>
 

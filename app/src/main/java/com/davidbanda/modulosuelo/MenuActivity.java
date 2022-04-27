@@ -49,4 +49,12 @@ public class MenuActivity extends AppCompatActivity {
         Intent ventanLista= new Intent(getApplicationContext(), Terrenos.class);
         startActivity(ventanLista); //Solicitando que se abra el Menu
     }
+
+
+    //vista solo para ver el la vista del arduino
+    public void abrirMedidasArduino(View view){
+        //Objeto para manipular la actividad Menu
+        Intent ventanaArduino= new Intent(getApplicationContext(), TomaMedicionesActivity.class);
+        startActivity(ventanaArduino); //Solicitando que se abra el Menu
+    }
 }
