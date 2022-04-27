@@ -96,24 +96,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.691" />
 
-    <Button
-        android:id="@+id/listaTerrenos"
-        android:layout_width="284dp"
-        android:layout_height="60dp"
-        android:background="@drawable/botton_borde"
-        android:onClick="abrirListaTerrenos"
-        android:padding="4dp"
-        android:text="Terrenos"
-        android:textColor="#3A3E71"
-        android:textSize="17sp"
-        android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.836" />
-
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="104dp"
