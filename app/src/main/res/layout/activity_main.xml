@@ -32,8 +32,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="286dp"
-        android:layout_height="354dp"
+        android:layout_width="226dp"
+        android:layout_height="265dp"
         android:layout_gravity="center"
         android:foregroundGravity="center"
         app:srcCompat="@drawable/log" />

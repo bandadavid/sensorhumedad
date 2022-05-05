@@ -96,6 +96,24 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.758" />
 
+    <Button
+        android:id="@+id/recomenda"
+        android:layout_width="284dp"
+        android:layout_height="60dp"
+        android:background="@drawable/botton_borde"
+        android:onClick="abrirRecomendaciones"
+        android:padding="4dp"
+        android:text="Recomendaciones para fertilizar el suelo"
+        android:textColor="#3A3E71"
+        android:textSize="17sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.758" />
+
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="104dp"
