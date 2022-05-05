@@ -57,4 +57,10 @@ public class MenuActivity extends AppCompatActivity {
         Intent ventanaArduino= new Intent(getApplicationContext(), TomaMedicionesActivity.class);
         startActivity(ventanaArduino); //Solicitando que se abra el Menu
     }
+
+    public void abrirColorSuelo(View view){
+        //Objeto para manipular la actividad Menu
+        Intent ventanaSuelo= new Intent(getApplicationContext(), ColorSueloActivity.class);
+        startActivity(ventanaSuelo); //Solicitando que se abra el Menu
+    }
 }

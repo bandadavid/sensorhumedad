@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/DELL/Documents/Aplicaciones/sensorhumedad/app/src/main/res/layout/activity_color_suelo.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/DELL/Documents/Aplicaciones/sensorhumedad/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/DELL/Documents/Aplicaciones/sensorhumedad/app/src/main/res/layout/activity_menu.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/DELL/Documents/Aplicaciones/sensorhumedad/app/src/main/res/layout/activity_recomendaciones.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/DELL/Documents/Aplicaciones/sensorhumedad/app/src/main/res/layout/activity_splash_screen.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/DELL/Documents/Aplicaciones/sensorhumedad/app/src/main/res/layout/activity_suelo_optimo.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/david/AndroidStudioProjects/Proyect_android/app/src/main/res/drawable/botton_borde.xml" value="0.37864583333333335" />
         <entry key="..\:/Users/david/AndroidStudioProjects/Proyect_android/app/src/main/res/layout/activity_estado_general.xml" value="0.25" />
         <entry key="..\:/Users/david/AndroidStudioProjects/Proyect_android/app/src/main/res/layout/activity_formulario_editar_terrenos.xml" value="0.3484375" />
@@ -19,7 +25,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
