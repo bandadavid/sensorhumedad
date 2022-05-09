@@ -86,43 +86,52 @@ public class ColorSueloActivity extends AppCompatActivity {
         }
     }
 
-    private void crearPalette(Bitmap bitmap) {
-        Palette.from(bitmap).generate(new Palette.PaletteAsyncListener() {
+    private void crearPalette(Bitmap imagenBitmap) {
+
+        Palette.from(imagenBitmap).generate(new Palette.PaletteAsyncListener() {
             @Override
             public void onGenerated(@Nullable Palette palette) {
                 Palette.Swatch vibrant = palette.getVibrantSwatch();
                 if (vibrant!=null){
                     txt1.setBackgroundColor(vibrant.getRgb());
                     txt1.setTextColor(vibrant.getTitleTextColor());
-                    txt1.setText("0");
+                    String textColor= String.valueOf(vibrant.getRgb());
+                    txt1.setText("color"+textColor);
                 }
 
                 Palette.Swatch muted = palette.getMutedSwatch();
                 if (muted!=null){
                     txt2.setBackgroundColor(muted.getRgb());
                     txt2.setTextColor(muted.getTitleTextColor());
-                    txt2.setText("1");
+                    String textColor= String.valueOf(muted.getRgb());
+                    txt2.setText("Tierra Blanca "+textColor);
+
+
                 }
 
                 Palette.Swatch dominant = palette.getDominantSwatch();
                 if (dominant!=null){
                     txt3.setBackgroundColor(dominant.getRgb());
                     txt3.setTextColor(dominant.getTitleTextColor());
-                    txt3.setText("2");
+                    String textColor= String.valueOf(dominant.getRgb());
+                    txt3.setText("Tierra Blanca"+textColor);
                 }
 
                 Palette.Swatch darkMuted = palette.getDarkMutedSwatch();
                 if (darkMuted!=null){
                     txt4.setBackgroundColor(darkMuted.getRgb());
                     txt4.setTextColor(darkMuted.getTitleTextColor());
-                    txt4.setText("3");
+                    String textColor= String.valueOf(darkMuted.getRgb());
+                    txt4.setText("Tierra Negra"+textColor);
+
                 }
 
                 Palette.Swatch darkVibrant = palette.getDarkVibrantSwatch();
                 if (darkVibrant!=null){
                     txt5.setBackgroundColor(darkVibrant.getRgb());
                     txt5.setTextColor(darkVibrant.getTitleTextColor());
-                    txt5.setText("4");
+                    String textColor= String.valueOf(darkMuted.getRgb());
+                    txt5.setText("Tierra Negra"+textColor);
                 }
             }
         });
