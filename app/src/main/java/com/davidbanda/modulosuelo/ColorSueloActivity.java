@@ -96,7 +96,8 @@ public class ColorSueloActivity extends AppCompatActivity {
                     txt1.setBackgroundColor(vibrant.getRgb());
                     txt1.setTextColor(vibrant.getTitleTextColor());
                     String textColor= String.valueOf(vibrant.getRgb());
-                    txt1.setText("color"+textColor);
+                    txt1.setText("color"+textColor+"La Tierra no es apta");
+
                 }
 
                 Palette.Swatch muted = palette.getMutedSwatch();
@@ -104,7 +105,7 @@ public class ColorSueloActivity extends AppCompatActivity {
                     txt2.setBackgroundColor(muted.getRgb());
                     txt2.setTextColor(muted.getTitleTextColor());
                     String textColor= String.valueOf(muted.getRgb());
-                    txt2.setText("Tierra Blanca "+textColor);
+                    txt2.setText("Tierra Blanca "+"La Tierra no es apta");
 
 
                 }
@@ -114,7 +115,7 @@ public class ColorSueloActivity extends AppCompatActivity {
                     txt3.setBackgroundColor(dominant.getRgb());
                     txt3.setTextColor(dominant.getTitleTextColor());
                     String textColor= String.valueOf(dominant.getRgb());
-                    txt3.setText("Tierra Blanca"+textColor);
+                    txt3.setText("Tierra Blanca"+"La Tierra no es apta");
                 }
 
                 Palette.Swatch darkMuted = palette.getDarkMutedSwatch();
@@ -122,7 +123,7 @@ public class ColorSueloActivity extends AppCompatActivity {
                     txt4.setBackgroundColor(darkMuted.getRgb());
                     txt4.setTextColor(darkMuted.getTitleTextColor());
                     String textColor= String.valueOf(darkMuted.getRgb());
-                    txt4.setText("Tierra Negra"+textColor);
+                    txt4.setText("Tierra Negra"+"La Tierra es apta");
 
                 }
 
@@ -131,7 +132,7 @@ public class ColorSueloActivity extends AppCompatActivity {
                     txt5.setBackgroundColor(darkVibrant.getRgb());
                     txt5.setTextColor(darkVibrant.getTitleTextColor());
                     String textColor= String.valueOf(darkMuted.getRgb());
-                    txt5.setText("Tierra Negra"+textColor);
+                    txt5.setText("Tierra Negra1"+"La Tierra no es apta");
                 }
             }
         });
