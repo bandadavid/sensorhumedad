@@ -40,12 +40,12 @@ public class EstadoGeneralActivity extends AppCompatActivity implements View.OnC
 
     TextView vt, rese1, rese2, rese3, tipo;
     Button calul, buscar;
-    EditText temp1;
-    EditText temp2;
-    EditText hum1;
-    EditText hum2;
-    EditText ph1;
-    EditText ph2;
+    TextView temp1;
+    TextView temp2;
+    TextView hum1;
+    TextView hum2;
+    TextView ph1;
+    TextView ph2;
     EditText lugar, medic;
     EditText longitud, latitud;
     Button estadogen;
