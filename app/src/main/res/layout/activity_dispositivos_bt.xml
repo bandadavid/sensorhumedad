@@ -15,8 +15,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="49dp"
-        android:layout_marginTop="45dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="41dp"
         android:text=" CONEXIÓN BLUETOOTH "
         android:textAlignment="center"
         android:textColor="#d41217"
@@ -25,15 +25,16 @@
 
     <ListView
         android:id="@+id/IdLista"
-        android:layout_width="272dp"
-        android:layout_height="wrap_content"
+        android:layout_width="383dp"
+        android:layout_height="599dp"
         android:layout_below="@id/IdTitulo"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="115dp"
-        android:layout_marginBottom="190dp"
-        android:cacheColorHint="#fff" />
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="117dp"
+        android:layout_marginBottom="15dp"
+        android:background="#E3E3E3"
+        android:cacheColorHint="#000000" />
 </RelativeLayout>

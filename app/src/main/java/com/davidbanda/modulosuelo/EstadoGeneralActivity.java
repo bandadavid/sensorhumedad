@@ -1,8 +1,17 @@
 package com.davidbanda.modulosuelo;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 
+import android.Manifest;
+import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.location.Criteria;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
 import android.os.Bundle;
 import android.text.format.Time;
 import android.view.View;
@@ -38,7 +47,11 @@ public class EstadoGeneralActivity extends AppCompatActivity implements View.OnC
     EditText ph1;
     EditText ph2;
     EditText lugar, medic;
+    EditText longitud, latitud;
     Button estadogen;
+    private Location loc;
+    private LocationManager locManager;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,7 +66,7 @@ public class EstadoGeneralActivity extends AppCompatActivity implements View.OnC
         int mes = today.month;
         int ano = today.year;
         mes = mes + 1;
-        vt.setText(ano+ "/" + mes + "/" + dia);
+        vt.setText(ano + "/" + mes + "/" + dia);
 
         medic = findViewById(R.id.id_med1);
         temp1 = findViewById(R.id.temp1);
@@ -101,8 +114,8 @@ public class EstadoGeneralActivity extends AppCompatActivity implements View.OnC
             }
         });
         calul.setOnClickListener(this);
-
     }
+
 
     private void guardarServicio(String URL) {
 
